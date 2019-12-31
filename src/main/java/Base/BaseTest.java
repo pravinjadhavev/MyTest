@@ -12,7 +12,8 @@ public class BaseTest {
 	public static WebDriver driver;
 	public void init()
 	{
-		System.setProperty("webdriver.chrome.driver", "../Products/exes/chromedriver78.exe");
+		String Dpath=System.getProperty("user.dir") + "/exes/chromedriver78.exe";
+		System.setProperty("webdriver.chrome.driver", Dpath);
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
