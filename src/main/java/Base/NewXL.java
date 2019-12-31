@@ -73,9 +73,12 @@ public class NewXL {
 	
 	public static ArrayList<Object[]> readData2() throws EncryptedDocumentException, IOException
 	{
-		String path="../Products/exes/PFinder.xlsx";
+		
+		
+		//String path="../Products/exes/PFinder.xlsx";
 		System.out.println("inexcel");
-		FileInputStream file=new FileInputStream(path);
+//		FileInputStream file=new FileInputStream(path);
+		FileInputStream file=new FileInputStream(System.getProperty("user.dir") + "/exes/PFinder.xlsx");
 		Workbook wb = WorkbookFactory.create(file);
 		ArrayList<Object[]> myobj = new ArrayList<Object[]>();
 		int rowcnt=wb.getSheet("Sheet2").getLastRowNum();
