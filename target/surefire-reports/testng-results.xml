@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTests.MyTest" duration-ms="97394" started-at="2019-12-27T07:17:26Z" finished-at="2019-12-27T07:19:04Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="97394" started-at="2019-12-27T07:17:26Z" finished-at="2019-12-27T07:19:04Z">
+      <class name="AllTests.MyTest">
+        <test-method status="PASS" signature="Take(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.MyTest@4cb2c100]" name="Take" duration-ms="31138" started-at="2019-12-27T07:17:27Z" data-provider="getdata" finished-at="2019-12-27T07:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cream]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Summer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Oily]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cream Cocoa Butter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take -->
+        <test-method status="PASS" signature="end()[pri:0, instance:AllTests.MyTest@4cb2c100]" name="end" is-config="true" duration-ms="69" started-at="2019-12-27T07:17:59Z" finished-at="2019-12-27T07:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="Take(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.MyTest@4cb2c100]" name="Take" duration-ms="31558" started-at="2019-12-27T07:17:59Z" data-provider="getdata" finished-at="2019-12-27T07:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cream]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Summer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dry]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cream Chocolate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take -->
+        <test-method status="PASS" signature="end()[pri:0, instance:AllTests.MyTest@4cb2c100]" name="end" is-config="true" duration-ms="2097" started-at="2019-12-27T07:18:30Z" finished-at="2019-12-27T07:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="Take(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.MyTest@4cb2c100]" name="Take" duration-ms="29304" started-at="2019-12-27T07:18:32Z" data-provider="getdata" finished-at="2019-12-27T07:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cream]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Winter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cream Cinnamon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take -->
+        <test-method status="PASS" signature="end()[pri:0, instance:AllTests.MyTest@4cb2c100]" name="end" is-config="true" duration-ms="2121" started-at="2019-12-27T07:19:02Z" finished-at="2019-12-27T07:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- AllTests.MyTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- AllTests.MyTest -->
+</testng-results>
